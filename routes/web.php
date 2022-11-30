@@ -18,9 +18,9 @@
 // 5. Working in Controller + Model + view  
 
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/', function () {
+    return view('welcome');
+});
 
 
 Route::get('/admin/login','Backend\AdminController@login')->name('admin.login');
