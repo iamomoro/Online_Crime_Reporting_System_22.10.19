@@ -132,6 +132,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 
 Route::get('/userRegistration','Frontend\UserController@create')->name('userRegistration');
+Route::get('/userLogin','Frontend\UserController@create')->name('userLogin');
 Route::post('/userRegProcess','Frontend\UserController@store')->name('userRegProcess');
 Route::get('/verifyEmail/{token}','Frontend\UserController@verifyEmail')->name('verifyEmail');
 Route::get('/verifyEmail/{token}','Frontend\UserController@verifyEmail')->name('verifyEmail');

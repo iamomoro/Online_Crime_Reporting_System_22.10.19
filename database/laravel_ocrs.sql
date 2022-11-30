@@ -44,9 +44,11 @@ CREATE TABLE `admins` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
+DB::table('admins')->insert(['fullname'=>'ElvisZOmoro','email'=>'omoro@gmail.com','IdNO'=>'120120','image'=>'image_5d57e423641f33.33202864B9Vj8dMcLe.jpg','area'=>'Roysambu','policeStation'=>'KasaraniPS','phone'=>'0792558287','password'=>Hash::make('123456789')])  
 -- Dumping data for table `admins`
 --
-
+INSERT INTO `admins` (`id`, `fullname`, `username`, `email`, `voterId`, `image`, `district`, `thana`, `phone`, `password`, `created_at`, `updated_at`) VALUES
+(3, 'Elvis Omoro', 'omoro', 'iamomoro@gmail.com', '123456789', 'image_5d57e423641f33.33202864B9Vj8dMcLe.jpg', 'Roysambu', 'Kasarani PS', 1829498634, 'e10adc3949ba59abbe56e057f20f883e', '2022-11-17 03:14:31', '2022-11-17 05:25:23');
 INSERT INTO `admins` (`id`, `fullname`, `username`, `email`, `voterId`, `image`, `district`, `thana`, `phone`, `password`, `created_at`, `updated_at`) VALUES
 (3, 'Md. Irfan Chowdhury', 'irfan_chy', 'irfanchowdhury80@gmail.com', '123456789', 'image_5d57e423641f33.33202864B9Vj8dMcLe.jpg', 'Chittagong', 'Panchlaish', 1829498634, 'e10adc3949ba59abbe56e057f20f883e', '2019-08-17 03:14:31', '2019-08-17 05:25:23'),
 (4, 'Warid Bin Azad', 'warid_bin_azad', 'warid@gmail.com', '12345678910', 'image_5d57c6c53405b0.74697988LqLoBgWIPM.jpg', 'Chittagong', 'Panchlaish', 1234567810, 'e10adc3949ba59abbe56e057f20f883e', '2019-08-17 03:20:05', '2019-08-17 03:20:05'),

@@ -59,7 +59,7 @@
 
 
 					<div class="form-row">
-						<select name="gender" class="input-text" id="gender" style="background-color: #5F657B">
+						<select name="gender" class="input-text" id="gender" style="background-color: #3de">
 						  <option selected>--Select--</option>
                           <option value="male">Male</option>
                           <option value="female">Female</option>

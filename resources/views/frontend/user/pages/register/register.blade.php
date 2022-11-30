@@ -111,7 +111,7 @@
 				</div>
 				
 				<div class="form-row-last">
-				     <h3><a href="{{route('login')}}" class="GoToMainPage" style="color:#FE9A45">Go To Login Page</a></h3>	
+				     <h3><a href="{{route('userLogin')}}" class="GoToMainPage" style="color:#FE9A45">Go To Login Page</a></h3>	
 				</div>
 				    
 				    
