@@ -35,7 +35,7 @@ class MissingPersonController extends Controller
             'description' => 'required',
             'status'      => 'required',
             'show'        => 'required',
-            'image'       => 'required|image',
+            'image'       => 'required',
         ]);
 
         if($validator->fails())
@@ -104,7 +104,7 @@ class MissingPersonController extends Controller
             'description'     => 'required',
             'status'          => 'required',
             'show'            => 'required',
-            'image'           => 'image'
+            'image'           => 'required'
         ]);
 
         if($validator->fails())

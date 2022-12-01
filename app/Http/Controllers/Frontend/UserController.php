@@ -67,9 +67,9 @@ class UserController extends Controller
             'password'  => Hash::make($request->input('password')),
         ]);
 
-        // ========= Notification ========
-            $admin = Admin::find(3);
-            $admin->notify(new NotifyAdmin($user));
+        // // ========= Notification ========
+        //     $admin = Admin::find(3);
+        //     $admin->notify(new NotifyAdmin($user));
         // ========= Notification End ========
 
         Mail::to($user->email)->send(new VerificationEmail($user)); //new
@@ -105,7 +105,7 @@ class UserController extends Controller
 
         $user->update([
             'email_verified' => 1 ,
-            'email_verified_at' => Carbon::now() ,  //current time update
+            'email_verified_at' => Carbon::now()->format('Y-m-d H:i:s'), //current time update
             'email_verification_token' => '',
         ]);
 

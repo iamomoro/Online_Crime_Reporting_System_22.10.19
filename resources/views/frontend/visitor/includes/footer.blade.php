@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row">
                 <div class="col ">
-                    <p class="lead mb-0">Copyright 2018 &copy; Irfan</p>
+                    <p class="lead mb-0">&copy; 2022 | Elvis Omoro | 19/02570</p>
                 </div>
             </div>
         </div>
