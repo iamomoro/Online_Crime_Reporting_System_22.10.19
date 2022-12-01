@@ -35,7 +35,7 @@ class UserController extends Controller
             'age'       => ['required', 'integer'],
             'address'   => ['required', 'string', 'max:1000'],
             'phone'     => ['required', 'string'],
-            'image'     => 'required|image|max:1024000',
+            'image'     => 'required',
             'password'  => ['required', 'string', 'min:6', 'confirmed'],
         ]);
 
@@ -72,11 +72,11 @@ class UserController extends Controller
         //     $admin->notify(new NotifyAdmin($user));
         // ========= Notification End ========
 
-        Mail::to($user->email)->send(new VerificationEmail($user)); //new
+        // Mail::to($user->email)->send(new VerificationEmail($user)); //new
 
 
         //session()->flash('type','success');
-        session()->flash('message','Registration Successful. Please check your email for verify account');
+        session()->flash('message','Registration Successful');
         
         return redirect()->back();
     }

@@ -18,8 +18,8 @@
                         <div class="container">
                             <div class="carousel-caption mb-2 pb-2 mb-sm-5 pb-sm-5">
                                 <h2 class="display-4 text-light">Online Crime Reporting System</h2>
-                                <p class="lead">“When a man is denied the right to live the life he believes in, he has no choice but to become an outlaw.” </p>
-                                <p><b>― Nelson Mandela</b></p>    
+                                <!-- <p class="lead">“When a man is denied the right to live the life he believes in, he has no choice but to become an outlaw.” </p>
+                                <p><b>― Nelson Mandela</b></p>     -->
                                     
                                 <a href="#" class="btn btn-danger">Learn More</a>
                             </div>
@@ -29,21 +29,22 @@
                         <div class="container">
                             <div class="carousel-caption mb-5 pb-5 text-right">
                                 <h2 class="display-4 text-light">Online Crime Reporting System</h2>
-                                <p class="lead">“Don't compromise yourself - you're all you have.” </p>
-                                <p><b>― John Grisham, The Rainmaker</b></p>
+                                <!-- <p class="lead">“Don't compromise yourself - you're all you have.” </p>
+                                <p><b>― John Grisham, The Rainmaker</b></p> -->
                                 <a href="#" class="btn btn-success">Learn More</a>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item carousel-img-3 ">
-                        {{-- <div class="container">
-                            <div class="carousel-caption mb-5 pb-5 text-left">
-                                <h2 class="display-4 text-dark">Online Crime Reporting System</h2>
-                                <p class="lead">“Poverty is the parent of revolution and crime.”</p>
-                                <p><b>― Aristotle</b></p>
-                                <a href="#" class="btn btn-outline-light">Learn More</a>
+                    <div class="container">
+                            <div class="carousel-caption mb-2 pb-2 mb-sm-5 pb-sm-5">
+                                <h2 class="display-4 text-light">Online Crime Reporting System</h2>
+                                <!-- <p class="lead">“When a man is denied the right to live the life he believes in, he has no choice but to become an outlaw.” </p>
+                                <p><b>― Nelson Mandela</b></p>     -->
+                                    
+                                <a href="#" class="btn btn-danger">Learn More</a>
                             </div>
-                        </div> --}}
+                        </div>
                     </div>
                     
                 </div>
@@ -88,7 +89,7 @@
     </div>
 </section>
     
-        <!-- Home Icon -->
+        <!-- Home Icon
         {{-- <section id="homeicon" class="py-5 text-center">
             <div class="container">
                 <div class="row">
@@ -111,7 +112,7 @@
             </div>
         </section>  --}}
     
-        <!-- Home - Get Started -->
+        Home - Get Started
         {{-- <div id="getstarted" class="py-5 text-center text-light">
             <div class="dark-overlay">
                 <div class="container">
@@ -127,7 +128,7 @@
     
     
         
-      <!-- Home -  Info Section -->
+      Home -  Info Section
       {{-- <section id="homeinfo" class="py-5">
             <div class="container">
                 <div class="row">
@@ -144,7 +145,7 @@
         </section> --}}
     
         <!-- Home Video Section -->
-        {{-- <section id="home-video" class="text-center text-light">
+        <!-- {{-- <section id="home-video" class="text-center text-light">
             <div class="dark-overlay">
                 <div class="container">
                     <div class="row">
@@ -159,12 +160,12 @@
                     </div>
                 </div>
             </div>
-        </section> --}}
+        </section> --}} -->
 
     
         <!-- NewsLetter -->
     
-        {{-- <section id="newsletter"  class="py-5 bg-dark text-light text-center">
+        <!-- {{-- <section id="newsletter"  class="py-5 bg-dark text-light text-center">
             <div class="container" >
                 <div class="row">
                     <div class="col">
@@ -181,7 +182,7 @@
                     </div>
                 </div>
             </div>
-        </section> --}}
+        </section> --}} -->
  
 
 @endsection

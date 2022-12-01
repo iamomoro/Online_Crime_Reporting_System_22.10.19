@@ -18,8 +18,8 @@
                         <div class="container">
                             <div class="carousel-caption mb-2 pb-2 mb-sm-5 pb-sm-5">
                                 <h2 class="display-4 text-light">Online Crime Reporting System</h2>
-                                <p class="lead">“When a man is denied the right to live the life he believes in, he has no choice but to become an outlaw.” </p>
-                                <p><b>― Nelson Mandela</b></p>    
+                                <!-- <p class="lead">“When a man is denied the right to live the life he believes in, he has no choice but to become an outlaw.” </p>
+                                <p><b>― Nelson Mandela</b></p>     -->
                                     
                                 <a href="#" class="btn btn-danger">Learn More</a>
                             </div>
@@ -29,8 +29,8 @@
                         <div class="container">
                             <div class="carousel-caption mb-5 pb-5 text-right">
                                 <h2 class="display-4 text-light">Online Crime Reporting System</h2>
-                                <p class="lead">“Don't compromise yourself - you're all you have.” </p>
-                                <p><b>― John Grisham, The Rainmaker</b></p>
+                                <!-- <p class="lead">“Don't compromise yourself - you're all you have.” </p>
+                                <p><b>― John Grisham, The Rainmaker</b></p> -->
                                 <a href="#" class="btn btn-success">Learn More</a>
                             </div>
                         </div>

@@ -42,7 +42,7 @@ class MissingOtherController extends Controller
             'phone'               => 'required',
             'status'              => 'required',
             'show'                => 'required',
-            'image'               => 'required|image',
+            'image'               => 'required',
         ]);
 
         if($validator->fails())

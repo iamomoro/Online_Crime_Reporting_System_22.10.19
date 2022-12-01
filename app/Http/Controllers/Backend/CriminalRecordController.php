@@ -39,7 +39,7 @@ class CriminalRecordController extends Controller
             'address'       => 'required',
             'status'        => 'required',
             'show'          => 'required',
-            'image'         => 'required|image',
+            'image'         => 'required',
         ]);
 
         if($validator->fails())
