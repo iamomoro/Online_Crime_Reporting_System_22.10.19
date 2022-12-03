@@ -44,7 +44,7 @@
                             <a class="dropdown-item" href="#">Cyber Crime</a>
                         </div>
                     </li> --}}
-                    <li class="nav-item"><a class="nav-link" href="{{route('visitor.FAQ')}}">FAQ</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="{{route('visitor.FAQ')}}">FAQ</a></li> -->
                     <li class="nav-item"><a class="nav-link" href="{{route('userRegistration')}}">Sign Up</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{route('login')}}">Sign In</a></li>
                 </ul>
