@@ -63,7 +63,7 @@
 
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label><b>City</b></label>
+                                <label><b>Area</b></label>
                                 <select name="city_id" class="form-control">
                                         <option selected>--- Select ---</option>
                                     @foreach ($cities as $city)

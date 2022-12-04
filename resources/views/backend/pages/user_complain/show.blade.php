@@ -57,7 +57,7 @@
                                         <p class="card-text"><b>Complain Type: </b>{{$complain->crimeCategory->crimeCategoryName}}</p>
                                         <p class="card-text"><b>Complain Title: </b>{{$complain->title}}</p>
                                         <p class="card-text"><b>Description: </b>{{$complain->description}}</p>
-                                        <p class="card-text"><b>City: </b>{{$complain->city->cityName}}</p>
+                                        <p class="card-text"><b>Area </b>{{$complain->city->cityName}}</p>
         
                                         <p class="card-text"><b>Late Long: </b>
                                         <a href="https://www.google.com/maps/place/{{$complain->late_long}}" target="_blank">Click Here</a></p>

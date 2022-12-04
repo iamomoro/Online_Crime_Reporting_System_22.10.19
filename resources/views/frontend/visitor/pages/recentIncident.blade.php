@@ -24,7 +24,7 @@
             <div class="col-3">
                 <div class="btn-group ml-5">
                     <button class="btn btn-info btn-lg" type="button">
-                        Search By City
+                        Search By Area
                     </button>
                     <button type="button" class="btn btn-lg btn-info dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <span class="sr-only">Toggle Dropdown</span>

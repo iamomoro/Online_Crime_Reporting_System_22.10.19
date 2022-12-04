@@ -22,7 +22,7 @@
                         <th>User Id</th>
                         <th>Complain Type</th>
                         <th>Title</th>
-                        <th>City</th>
+                        <th>Area</th>
                         <th>status</th>
                         <th>Action</th>
                     </tr>
